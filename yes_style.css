@@ -13,13 +13,14 @@ body {
 .container {
   text-align: center;
   background-color: #fff3e0;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   border: 3px solid #ffd54f;
   box-shadow: 0 0 10px #ffd54f, 0 0 20px #ffd54f, 0 0 40px #ffd54f,
     0 0 80px #ffd54f;
   max-width: 600px;
   width: 90%;
+  margin: 0 auto;
 }
 
 @keyframes fadeIn {
@@ -64,4 +65,14 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .header_text {
+    font-size: 30px;
+  }
 }

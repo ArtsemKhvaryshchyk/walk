@@ -18,8 +18,9 @@ body {
   border: 3px solid #ff6b81;
   box-shadow: 0 0 10px #ff6b81, 0 0 20px #ff6b81, 0 0 40px #ff6b81,
     0 0 80px #ff6b81;
-  max-width: 90%;
-  width: 100%;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -28,6 +29,8 @@ body {
   color: #ff6b81;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2);
+  animation: fadeIn 1s ease-out forwards, pulse 2s ease-in-out infinite;
+  animation-delay: 0.5s;
 }
 
 .gif_container img {
@@ -139,12 +142,11 @@ body {
   }
 }
 
-.header_text {
-  animation: fadeIn 1s ease-out forwards, pulse 2s ease-in-out infinite;
-  animation-delay: 0.5s;
-}
-
 @media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
   .header_text {
     font-size: 24px;
   }
@@ -152,9 +154,5 @@ body {
   .btn {
     padding: 10px 20px;
     font-size: 16px;
-  }
-
-  .container {
-    padding: 15px;
   }
 }
