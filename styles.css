@@ -5,17 +5,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #e3f2fd; /* Нежно-голубой фон */
+  background-color: #e3f2fd;
   font-family: "Dancing Script", cursive;
   overflow: hidden;
 }
 
 .container {
   text-align: center;
-  background-color: #bbdefb; /* Светло-голубой контейнер */
+  background-color: #bbdefb;
   padding: 20px;
   border-radius: 20px;
-  border: 3px solid #64b5f6; /* Голубая рамка */
+  border: 3px solid #64b5f6;
   box-shadow: 0 0 10px #64b5f6, 0 0 20px #64b5f6, 0 0 40px #64b5f6,
     0 0 80px #64b5f6;
   max-width: 600px;
@@ -26,7 +26,7 @@ body {
 
 .header_text {
   font-size: 28px;
-  color: #1976d2; /* Темно-голубой текст */
+  color: #1976d2;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(25, 118, 210, 0.2);
   animation: fadeIn 1s ease-out forwards, pulse 2s ease-in-out infinite;
@@ -68,7 +68,7 @@ body {
 }
 
 #noButton {
-  background-color: #1565c0; /* Темно-голубой */
+  background-color: #1565c0;
   border-color: #1565c0;
 }
 
