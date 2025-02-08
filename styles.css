@@ -5,19 +5,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fff5f5;
+  background-color: #e3f2fd; /* Нежно-голубой фон */
   font-family: "Dancing Script", cursive;
   overflow: hidden;
 }
 
 .container {
   text-align: center;
-  background-color: #ffebee;
+  background-color: #bbdefb; /* Светло-голубой контейнер */
   padding: 20px;
   border-radius: 20px;
-  border: 3px solid #ff6b81;
-  box-shadow: 0 0 10px #ff6b81, 0 0 20px #ff6b81, 0 0 40px #ff6b81,
-    0 0 80px #ff6b81;
+  border: 3px solid #64b5f6; /* Голубая рамка */
+  box-shadow: 0 0 10px #64b5f6, 0 0 20px #64b5f6, 0 0 40px #64b5f6,
+    0 0 80px #64b5f6;
   max-width: 600px;
   width: 90%;
   margin: 0 auto;
@@ -26,9 +26,9 @@ body {
 
 .header_text {
   font-size: 28px;
-  color: #ff6b81;
+  color: #1976d2; /* Темно-голубой текст */
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2);
+  text-shadow: 2px 2px 4px rgba(25, 118, 210, 0.2);
   animation: fadeIn 1s ease-out forwards, pulse 2s ease-in-out infinite;
   animation-delay: 0.5s;
 }
@@ -68,13 +68,13 @@ body {
 }
 
 #noButton {
-  background-color: #ff4757;
-  border-color: #ff4757;
+  background-color: #1565c0; /* Темно-голубой */
+  border-color: #1565c0;
 }
 
 #noButton:hover {
   background-color: white;
-  color: #ff4757;
+  color: #1565c0;
 }
 
 @keyframes wiggle {
